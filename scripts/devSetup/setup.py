@@ -1,5 +1,5 @@
-#setup.py
-#A setup script for the CodeCombat development environment
+# setup.py
+# A setup script for the CodeCombat development environment
 
 # The MIT License (MIT)
 #
@@ -27,6 +27,8 @@ import factories
 import os
 import errors
 import ctypes
+
+
 def check_if_root():
     is_admin = False
     try:
@@ -44,5 +46,3 @@ if __name__ == u"__main__":
     check_if_root()
     setup = factories.constructSetup()
     setup.setup()
-
-

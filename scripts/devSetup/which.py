@@ -1,7 +1,8 @@
 __author__ = 'root'
-#copied from python3
+# copied from python3
 import os
 import sys
+
 
 def which(cmd, mode=os.F_OK | os.X_OK, path=None):
     """Given a command, mode, and a PATH string, return the path which
